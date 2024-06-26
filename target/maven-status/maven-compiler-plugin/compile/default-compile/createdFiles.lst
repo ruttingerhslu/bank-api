@@ -1,2 +1,2 @@
-hslu/vsk/bank/api/Bank.class
-hslu/vsk/bank/api/BankSetup.class
+ch/hslu/bank/api/BankSetup.class
+ch/hslu/bank/api/Bank.class

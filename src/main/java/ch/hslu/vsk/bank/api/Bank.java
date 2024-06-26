@@ -1,4 +1,4 @@
-package ch.hslu.bank.api;
+package ch.hslu.vsk.bank.api;
 
 import java.util.Currency;
 
