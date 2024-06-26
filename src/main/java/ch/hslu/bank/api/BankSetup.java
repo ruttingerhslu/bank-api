@@ -1,4 +1,4 @@
-package hslu.vsk.bank.api;
+package ch.hslu.bank.api;
 
 import java.net.InetSocketAddress;
 import java.util.Currency;
