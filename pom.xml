@@ -4,13 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hslu.vsk.bank.api</groupId>
+    <groupId>ch.hslu.vsk.bank.api</groupId>
     <artifactId>bank-api</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>bank-interface</module>
-    </modules>
+    <version>1.0.3-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -21,9 +18,18 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub ruttingerhslu Apache Maven Packages</name>
+            <name>GitHub Rafael Uttinger Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/ruttingerhslu/bank-api</url>
         </repository>
     </distributionManagement>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
